@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:backgroundTint="@color/white"
+      android:text="Search product by name"
+      android:textColor="@color/gray"
+      android:textSize="18sp"/>
+
+    <ImageButton
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_width="386dp"
+        android:backgroundTint="@color/orange"
+        android:layout_height="194dp" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="12dp"
+        android:text="Burger Crazy"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/green"
+        android:gravity="center"
+        android:text="OPEN"
+        android:textSize="18dp"/>
+
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="280dp"
+        android:text="more info"
+        android:gravity="center"
+        android:textSize="15sp"/>
+
+</FrameLayout>
